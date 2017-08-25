@@ -4,6 +4,6 @@ Base image containing confluent-oss, for throwing together demos.
 
 Not recommended for production use.
 
-Build with:
+Build with: `mvn package`
 
-`mvn package`
+https://hub.docker.com/r/confluentinc/docker-demo-base/
