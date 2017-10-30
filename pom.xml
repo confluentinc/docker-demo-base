@@ -55,6 +55,7 @@
                                         <ARTIFACT_ID>${project.artifactId}</ARTIFACT_ID>
                                         <PROJECT_VERSION>${project.version}</PROJECT_VERSION>
                                         <DOCKER_REGISTRY>${docker.registry}</DOCKER_REGISTRY>
+                                        <MAJOR_MINOR>3.3</MAJOR_MINOR>
                                     </buildArgs>
                                     <tag>${docker.tag}</tag>
                                     <repository>${docker.registry}confluentinc/${project.artifactId}</repository>
